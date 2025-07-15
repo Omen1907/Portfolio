@@ -34,7 +34,7 @@ const Home = () => {
       {/* ================= Left Icons End here ======================== */}
       <div className='w-16 h-96 bg-transparent hidden lgl:flex flex-col gap-4'>
         {/* ======= Home Icon start */}
-        <div
+        {/* <div
           onClick={() => setSidenav(true)}
           className='w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group'
         >
@@ -43,7 +43,7 @@ const Home = () => {
             <span className='w-8 h-[2px] bg-textColor inline-block group-hover:bg-designColor duration-300'></span>
             <span className='w-8 h-[2px] bg-textColor inline-block -translate-x-3.5 group-hover:translate-x-0 transition-transform duration-300 group-hover:bg-designColor'></span>
           </div>
-        </div>
+        </div> */}
         {/* ======= Home Icon End */}
 
         {/* ============= Sidenav Start here ============= */}
