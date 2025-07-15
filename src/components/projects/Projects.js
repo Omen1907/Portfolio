@@ -10,7 +10,7 @@ const Projects = () => {
       <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10'>
         <div className='px-6'>
           <ProjectsCard
-            title='Blog Website'
+            title='Finance Tracker'
             category='Website'
             image={downloadfinance}
             link='https://finance-tracker-mvp.vercel.app/'
@@ -34,7 +34,7 @@ const Projects = () => {
         </div>
         <div className='px-6'>
           <ProjectsCard
-            title='Responsive website'
+            title='Booking Website'
             category='Booking-page'
             image={downloadbooking}
             link='https://booking-fi21vnzq7-mikhael-fouries-projects.vercel.app/'
