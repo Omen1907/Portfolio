@@ -13,6 +13,8 @@ import blogImgThree from "./blog/blogImgThree.jpg";
 import profilepic from "./profilepic.png";
 import retroface from "./Untitled design.jpg";
 import contrastFace from "./contrastFace.png";
+import downloadbooking from "./work/downloadbooking.png";
+import downloadfinance from "./work/downloadfinance.png";
 
 export {
   bannerImg,
@@ -30,4 +32,6 @@ export {
   profilepic,
   retroface,
   contrastFace,
+  downloadbooking,
+  downloadfinance,
 };

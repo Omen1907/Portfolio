@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  workImgOne,
-  workImgTwo,
-  workImgThree,
-  workImgFour,
-  workImgFive,
-  workImgSix,
-  workImgSeven,
-  workImgEight,
-} from "../../assets";
+import { downloadbooking, downloadfinance } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
 
@@ -21,12 +12,14 @@ const Projects = () => {
           <ProjectsCard
             title='Blog Website'
             category='Website'
-            image={workImgThree}
+            image={downloadfinance}
+            link='https://finance-tracker-mvp.vercel.app/'
           />
           {/* <ProjectsCard
-            title='Business Card Design'
-            category='Design'
-            image={workImgOne}
+            title='Blog Website'
+            category='Website'
+            image={workImgThree}
+            link='https://your-blog-project-url.com'
           />
           <ProjectsCard
             title='Infinity Logo'
@@ -42,8 +35,9 @@ const Projects = () => {
         <div className='px-6'>
           <ProjectsCard
             title='Responsive website'
-            category='E-commerce'
-            image={workImgFour}
+            category='Booking-page'
+            image={downloadbooking}
+            link='https://booking-fi21vnzq7-mikhael-fouries-projects.vercel.app/'
           />
           {/* <ProjectsCard
             title='Grapic Design'
