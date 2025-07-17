@@ -15,6 +15,7 @@ import retroface from "./Untitled design.jpg";
 import contrastFace from "./contrastFace.png";
 import downloadbooking from "./work/downloadbooking.png";
 import downloadfinance from "./work/downloadfinance.png";
+import downloadmovie from "./work/downloadmovie.png";
 
 export {
   bannerImg,
@@ -34,4 +35,5 @@ export {
   contrastFace,
   downloadbooking,
   downloadfinance,
+  downloadmovie
 };
