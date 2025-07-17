@@ -3,6 +3,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import { contrastFace } from "../../assets/index";
+import { Link } from "react-router-dom";
 
 const Left = () => {
   const [text] = useTypewriter({
@@ -31,28 +32,37 @@ const Left = () => {
             {text}
             <Cursor cursorBlinking='false' cursorStyle='|' />
           </p>
-          <div className='flex justify-center gap-2 mt-2'>
-            <span className='hover:text-designColor duration-300 cursor-pointer text-2xl'>
+          <div className='flex justify-center gap-3 mt-2'>
+            <a
+              href='https://github.com/Omen1907'
+              target='_blank'
+              rel='noreferrer'
+              className='hover:text-designColor duration-300 text-2xl'
+            >
               <FaGithub />
-            </span>
-            <span className='hover:text-designColor duration-300 cursor-pointer text-2xl'>
+            </a>
+            <a
+              href='www.linkedin.com/in/mikhael-fourie-90b7a32a0'
+              target='_blank'
+              rel='noreferrer'
+              className='hover:text-designColor duration-300 text-2xl'
+            >
               <FaLinkedin />
-            </span>
-            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <SiYoutubemusic />
-            </span> */}
-            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <BsFacebook />
-            </span> */}
-            <span className='hover:text-designColor duration-300 cursor-pointer text-2xl'>
+            </a>
+            <a
+              href='https://instagram.com/yourusername'
+              target='_blank'
+              rel='noreferrer'
+              className='hover:text-designColor duration-300 text-2xl'
+            >
               <FiInstagram />
-            </span>
-            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <AiFillTwitterCircle />
-            </span> */}
-            <span className='hover:text-designColor duration-300 cursor-pointer text-2xl'>
+            </a>
+            <a
+              href='mailto:mikhael.fourie@gmail.com'
+              className='hover:text-designColor duration-300 text-2xl'
+            >
               <FiMail />
-            </span>
+            </a>
           </div>
         </div>
         <div className='flex h-14 text-designColor'>
@@ -66,9 +76,12 @@ const Left = () => {
               Download CV <BsCloudLightningFill />
             </button>
           </a> */}
-          <button className='w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-textColor duration-300'>
+          <Link
+            to='/contact'
+            className='w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-textColor duration-300'
+          >
             Contact me <FiSend />
-          </button>
+          </Link>
         </div>
       </div>
     </div>
