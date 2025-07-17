@@ -41,7 +41,7 @@ const Left = () => {
               <FaGithub />
             </a>
             <a
-              href='www.linkedin.com/in/mikhael-fourie-90b7a32a0'
+              href='https://www.linkedin.com/in/mikhael-fourie-90b7a32a0'
               target='_blank'
               rel='noreferrer'
               className='hover:text-designColor duration-300 text-2xl'
@@ -75,12 +75,9 @@ const Left = () => {
               Download CV <BsCloudLightningFill />
             </button>
           </a> */}
-          <a
-            href='/contact'
-            className='w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-textColor duration-300'
-          >
+          <button className='w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-textColor duration-300'>
             Contact me <FiSend />
-          </a>
+          </button>
         </div>
       </div>
     </div>
