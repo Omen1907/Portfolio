@@ -3,7 +3,6 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import { contrastFace } from "../../assets/index";
-import { Link } from "react-router-dom";
 
 const Left = () => {
   const [text] = useTypewriter({
@@ -76,12 +75,12 @@ const Left = () => {
               Download CV <BsCloudLightningFill />
             </button>
           </a> */}
-          <Link
-            to='/contact'
+          <a
+            href='/contact'
             className='w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-textColor duration-300'
           >
             Contact me <FiSend />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
